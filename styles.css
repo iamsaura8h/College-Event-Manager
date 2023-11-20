@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* Light text */
+}
+
+header {
+    background: linear-gradient(to right, #333, #222); /* Gradient background */
+    text-align: center;
+    padding: 20px;
+    animation: fadeInDown 1s ease;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff; /* Light text */
+    animation: fadeInDown 1s ease;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05); /* Subtle box shadow */
+    border-radius: 12px;
+    animation: fadeInUp 1s ease;
+    background-color: #222; /* Dark gray background */
+}
+
+.event-list {
+    list-style: none;
+    padding: 0;
+}
+
+.event-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    background-color: #333; /* Dark gray background for event items */
+}
+
+.event-item:hover {
+    background: linear-gradient(to right, #444, #333); /* Slightly darker gray on hover */
+    transform: scale(1.05);
+}
+
+/* Additional styles for event.html */
+
+#eventName {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #fff; /* Light text */
+    animation: fadeInUp 1s ease forwards;
+}
+
+#eventDate, #eventTime, #eventLocation {
+    margin: 10px 0;
+    font-size: 18px;
+    opacity: 0.8;
+    color: #fff; /* Light text */
+    animation: fadeInRight 1s ease forwards;
+}
+
+/* Keyframe animations */
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
