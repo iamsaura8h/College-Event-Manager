@@ -1,5 +1,5 @@
 # College-Event-Manager - EventHub
-#at https://iamsaura8h.github.io/College-Event-Manager/
+https://iamsaura8h.github.io/College-Event-Manager/
 
 This platform provides an intuitive interface for both event organizers and participants, ensuring smooth communication and seamless organization of a College Fest or Event
 
