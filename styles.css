@@ -3,34 +3,51 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark background */
-    color: #fff; /* Light text */
+    background: #1a1a1a;
+    color: #fff;
 }
 
 header {
-    background: linear-gradient(to right, #333, #222); /* Gradient background */
+    background: linear-gradient(to right, #333, #222);
     text-align: center;
     padding: 20px;
     animation: fadeInDown 1s ease;
 }
 
 header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font: 36px 'Roboto', sans-serif;
+    margin: 10px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #fff; /* Light text */
+    color: #fff;
     animation: fadeInDown 1s ease;
+}
+
+nav.navbar {
+    background: #333;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-toggler-icon {
+    background: #fff;
+}
+
+nav.navbar a:hover {
+    color: #f8f9fa !important;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05); /* Subtle box shadow */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
     border-radius: 12px;
     animation: fadeInUp 1s ease;
-    background-color: #222; /* Dark gray background */
+    background: #222;
 }
 
 .event-list {
@@ -44,20 +61,18 @@ main {
     padding: 20px;
     border-radius: 12px;
     transition: transform 0.3s ease;
-    background-color: #333; /* Dark gray background for event items */
+    background: #333;
 }
 
 .event-item:hover {
-    background: linear-gradient(to right, #444, #333); /* Slightly darker gray on hover */
+    background: linear-gradient(to right, #444, #333);
     transform: scale(1.05);
 }
 
-/* Additional styles for event.html */
-
 #eventName {
-    font-size: 36px;
+    font: 36px 'Roboto', sans-serif;
     margin-bottom: 15px;
-    color: #fff; /* Light text */
+    color: #fff;
     animation: fadeInUp 1s ease forwards;
 }
 
@@ -65,11 +80,9 @@ main {
     margin: 10px 0;
     font-size: 18px;
     opacity: 0.8;
-    color: #fff; /* Light text */
+    color: #fff;
     animation: fadeInRight 1s ease forwards;
 }
-
-/* Keyframe animations */
 
 @keyframes fadeInDown {
     from {
