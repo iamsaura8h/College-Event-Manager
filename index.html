@@ -5,17 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Event Management</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     <header>
-        <h1>Upcoming Events</h1>
+        <h1 class="text-center mt-5">Upcoming Events</h1>
     </header>
 
-    <main>
-        <ul class="event-list" id="eventList">
+    <main class="container mt-3">
+        <ul class="list-group event-list" id="eventList">
             <!-- Event items will be dynamically added here -->
         </ul>
     </main>
+
+    <!-- jQuery (Bootstrap requires jQuery) -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <script src="script.js"></script>
 </body>
