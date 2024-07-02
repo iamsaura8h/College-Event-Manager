@@ -1,10 +1,7 @@
 # College-Event-Manager - EventHub
 https://iamsaura8h.github.io/College-Event-Manager/
 
-This platform provides an intuitive interface for both event organizers and participants, ensuring smooth communication and seamless organization of a College Fest or Event
-
-EventHub College is a comprehensive event management system designed to simplify and enhance the coordination of events within a college or campus setting. This platform provides an intuitive interface for both event organizers and participants, ensuring seamless communication and organization.
-
+This platform provides an intuitive interface for both event organizers and participants, ensuring smooth communication and seamless organization of a College Fest or Event.
 Key Features:
 Event Listing: Easily browse and discover upcoming events on campus.
 Registration: Simple registration process for event organizers and participants.
